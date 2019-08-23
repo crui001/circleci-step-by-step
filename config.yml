@@ -6,8 +6,3 @@ jobs:
     steps:
     - checkout
     - run: echo "Hello CircleCI!"
-workflows:
-  version: 2
-  workflow:
-    jobs:
-    - build
